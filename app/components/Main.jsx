@@ -2,6 +2,11 @@ var React = require('react');
 var Nav = require('Nav');
 
 var Main = React.createClass({
+  
+  componentDidMount: function() {
+    console.log("Mounted!");
+  },
+  
   render: function() {
     return (
       <div>
