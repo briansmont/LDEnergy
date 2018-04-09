@@ -16,7 +16,7 @@ var Choices = require('Choices');
 //$(document).foundation();
 
 // load APP Css
-require('style!css!sass!applicationStyles')
+require('style!css!sass!applicationStyles');
 
 
 ReactDOM.render(
