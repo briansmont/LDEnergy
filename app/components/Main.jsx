@@ -11,7 +11,8 @@ var Main = React.createClass({
     return (
       <div>
         <Nav/>
-        <h2>Main Component</h2>
+        <h2>Main Container Component</h2>
+        <p>Will have header, nav changes which child component exists within the SPA changing portion, and a footer</p>
         {this.props.children}
 
       </div>
