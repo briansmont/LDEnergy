@@ -39,6 +39,7 @@ module.exports = {
       Market: "app/components/Market.jsx",
       Choices: "app/components/Choices.jsx",
       LiveMarket: "app/components/LiveMarket.jsx",
+      marketData: "app/api/marketData.jsx",
       applicationStyles: 'app/styles/app.scss',
       jQuery: "node_modules/jquery/dist/jquery.min.js",
     },

@@ -1,10 +1,12 @@
 var React = require('react');
+var marketData = require('marketData');
 
 var LiveMarket = React.createClass({
   render: function() {
     return (
       <div>
         <p>Live data will populate here, from EIA.gov</p>
+        
       </div>
     );
   }
