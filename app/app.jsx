@@ -10,13 +10,15 @@ var Contact = require('Contact');
 var Services = require('Services');
 var Market = require('Market');
 var Choices = require('Choices');
+var Quote = require('Quote');
 
 
 
 // load foundation
 
-//$(document).foundation();
 
+require('style!css!foundation-sites/dist/foundation.min.css');
+// $(document).foundation();
 // load APP Css
 require('style!css!sass!applicationStyles');
 
@@ -29,6 +31,7 @@ ReactDOM.render(
       <Route path="services" component={Services}/>
       <Route path="choices" component={Choices}/>
       <Route path="market" component={Market}/>
+      <Route path="quote" component={Quote}/>
       <IndexRoute component={Home}/>
     </Route>
   </Router>,

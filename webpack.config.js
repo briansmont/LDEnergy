@@ -38,6 +38,7 @@ module.exports = {
       Contact: "app/components/Contact.jsx",
       Market: "app/components/Market.jsx",
       Choices: "app/components/Choices.jsx",
+      Quote: "app/components/Quote.jsx",
       LiveMarket: "app/components/LiveMarket.jsx",
       marketData: "app/api/marketData.jsx",
       applicationStyles: 'app/styles/app.scss',
