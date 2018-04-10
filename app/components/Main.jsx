@@ -14,7 +14,7 @@ var Main = React.createClass({
     return (
       <div>
         <Nav/>
-        <h2>Main Container Component</h2>
+        <br></br>
         
         {this.props.children}
 
