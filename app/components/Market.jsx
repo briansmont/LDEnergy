@@ -6,7 +6,7 @@ var LiveMarket = require('LiveMarket');
 var Market = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className="childwidth">
         <h1 className="text-center page-title">Market Updates</h1>
         <LiveMarket />
       </div>

@@ -3,7 +3,7 @@ var React = require('react');
 var About = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className="childwidth">
         <h1 className="text-center page-title">About LD Energy</h1>
         
         <p>Founded in 1996, LD Energy began consulting in the deregulated New Jersey natural gas market.  Over the past 20 plus years, we have developed an expertise in electric, and electricity procurement has become our primary consulting product.</p>

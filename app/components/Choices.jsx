@@ -3,7 +3,7 @@ var React = require('react');
 var Choices = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className="childwidth">
         <h1 className="text-center page-title">Your Choices</h1>
         <p>In a deregulated energy market, you can purchase your electricity or natural gas through a third-party supplier rather than default service through your utility.</p>
       
