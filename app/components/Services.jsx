@@ -4,7 +4,7 @@ var Services = React.createClass({
   render: function() {
     return (
       <div>
-        <h4>Services will go here</h4>
+        <h1 className="text-center page-title">Our Services</h1>
       </div>
     );
   }

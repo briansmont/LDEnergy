@@ -7,7 +7,7 @@ var Market = React.createClass({
   render: function() {
     return (
       <div>
-        <h4>Market updates</h4>
+        <h1 className="text-center page-title">Market Updates</h1>
         <LiveMarket />
       </div>
     );

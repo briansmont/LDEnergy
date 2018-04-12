@@ -5,7 +5,7 @@ var LiveMarket = React.createClass({
   render: function() {
     return (
       <div>
-        <p>Live data will populate here, from EIA.gov</p>
+        <p>Live Market child component will be here</p>
         
       </div>
     );
