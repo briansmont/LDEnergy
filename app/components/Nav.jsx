@@ -8,7 +8,7 @@ var Nav = React.createClass({
     return (
       <div className="data-sticky-container">
         <div className="row">
-          <img style={{position: 'fixed', top: '0', left: '0'}} src="https://s3.us-east-2.amazonaws.com/ldwebsite/logo.jpg"></img>
+          <a href="#/"><img style={{position: 'fixed', top: '0', left: '0'}} src="https://s3.us-east-2.amazonaws.com/ldwebsite/logo.jpg"></img></a>
           <p style={{color: 'green', position: 'fixed', top: '20', right: '50'}}><b><i>Energy Consultant Since 1996</i></b></p>
         </div>
         <div className="row top-left" style={{visibility: 'hidden'}}>
