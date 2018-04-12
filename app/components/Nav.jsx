@@ -6,8 +6,7 @@ var Nav = React.createClass({
   
   render: function() {
     return (
-      <div className="center-nav">
-      <div className="data-sticky-container nav-text">
+      <div className="data-sticky-container">
         <div className="row">
           <img style={{position: 'fixed', top: '0', left: '0'}} src="https://s3.us-east-2.amazonaws.com/ldwebsite/logo.jpg"></img>
           <p style={{color: 'green', position: 'fixed', top: '20', right: '50'}}><b><i>Energy Consultant Since 1996</i></b></p>
@@ -15,7 +14,7 @@ var Nav = React.createClass({
         <div className="row top-left" style={{visibility: 'hidden'}}>
           <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/logo.jpg"></img>
         </div>
-        <div className="top-bar">
+        <div className="top-bar center-nav">
           <div>
             <ul className="menu">
               <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink></li>
@@ -28,7 +27,6 @@ var Nav = React.createClass({
             </ul>
           </div>
         </div>
-      </div>
       </div>
     );
   }
