@@ -40,6 +40,7 @@ module.exports = {
       Choices: "app/components/Choices.jsx",
       Quote: "app/components/Quote.jsx",
       Thanks: "app/components/Thanks.jsx",
+      Basics: "app/components/Basics.jsx",
       LiveMarket: "app/components/LiveMarket.jsx",
       marketData: "app/api/marketData.jsx",
       applicationStyles: 'app/styles/app.scss',

@@ -7,7 +7,7 @@ var Choices = React.createClass({
   
   makeBasics: function() {
     document.getElementById('details').innerHTML = fixed;
-    document.getElementById('link').innerHTML = '<a href="javascript:">Learn More</a>';
+    document.getElementById('link').innerHTML = '<a href="#/Basics">Learn More</a>';
   },
   
   makeProcess: function() {
