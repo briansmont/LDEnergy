@@ -13,6 +13,7 @@ var Choices = require('Choices');
 var Quote = require('Quote');
 var Thanks = require('Thanks');
 var Basics = require('Basics');
+var Process = require('Process');
 
 
 // load foundation
@@ -35,6 +36,7 @@ ReactDOM.render(
       <Route path="quote" component={Quote}/>
       <Route path="thanks" component={Thanks}/>
       <Route path="Basics" component={Basics}/>
+      <Route path="Process" component={Process}/>
       <IndexRoute component={Home}/>
     </Route>
   </Router>,

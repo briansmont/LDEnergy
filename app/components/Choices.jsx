@@ -12,7 +12,7 @@ var Choices = React.createClass({
   
   makeProcess: function() {
     document.getElementById('details').innerHTML = process;
-    document.getElementById('link').innerHTML = '<a href="javascript:">Learn More</a>';
+    document.getElementById('link').innerHTML = '<a href="#/Process">Learn More</a>';
   },
   
   makeProduct: function() {
