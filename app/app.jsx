@@ -11,6 +11,7 @@ var Services = require('Services');
 var Market = require('Market');
 var Choices = require('Choices');
 var Quote = require('Quote');
+var Thanks = require('Thanks');
 
 
 
@@ -32,6 +33,7 @@ ReactDOM.render(
       <Route path="choices" component={Choices}/>
       <Route path="market" component={Market}/>
       <Route path="quote" component={Quote}/>
+      <Route path="thanks" component={Thanks}/>
       <IndexRoute component={Home}/>
     </Route>
   </Router>,
