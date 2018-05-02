@@ -4,7 +4,7 @@ var Contact = React.createClass({
   
   getInitialSate: function() {
     return {
-      submitted: false, className: 'entered'
+      submitted: 'nope', className: 'entered'
     };
   },
   
@@ -15,7 +15,7 @@ var Contact = React.createClass({
   },
   
   render: function() {
-    if (this.state.submitted) {
+    if (this.state.submitted === 'nope') {
       return (
         <div className="childwidth">
           <h1 className="text-center page-title">Contact Us</h1>
