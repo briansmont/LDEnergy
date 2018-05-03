@@ -42,6 +42,7 @@ module.exports = {
       Thanks: "app/components/Thanks.jsx",
       Basics: "app/components/Basics.jsx",
       Process: "app/components/Process.jsx",
+      Products: "app/components/Products.jsx",
       LiveMarket: "app/components/LiveMarket.jsx",
       marketData: "app/api/marketData.jsx",
       applicationStyles: 'app/styles/app.scss',

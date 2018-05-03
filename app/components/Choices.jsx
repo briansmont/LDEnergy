@@ -17,7 +17,7 @@ var Choices = React.createClass({
   
   makeProduct: function() {
     document.getElementById('details').innerHTML = products;
-    document.getElementById('link').innerHTML = '<a href="javascript:">Learn More</a>';
+    document.getElementById('link').innerHTML = '<a href="#/Products">Learn More</a>';
   },
   
   
