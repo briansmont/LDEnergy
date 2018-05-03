@@ -5,19 +5,27 @@ var products = '<ul><li>What are the goals for energy spend?</li><li>How much ri
 
 var Choices = React.createClass({
   
+  componentDidMount: function() {
+    this.makeBasics();
+    document.getElementById('focusbasics').focus();
+  },
+  
   makeBasics: function() {
     document.getElementById('details').innerHTML = fixed;
     document.getElementById('link').innerHTML = '<a href="#/Basics">Learn More</a>';
+    document.getElementById('focusbasics').focus();
   },
   
   makeProcess: function() {
     document.getElementById('details').innerHTML = process;
     document.getElementById('link').innerHTML = '<a href="#/Process">Learn More</a>';
+    document.getElementById('focusprocess').focus();
   },
   
   makeProduct: function() {
     document.getElementById('details').innerHTML = products;
     document.getElementById('link').innerHTML = '<a href="#/Products">Learn More</a>';
+    document.getElementById('focusproducts').focus();
   },
   
   
@@ -28,12 +36,14 @@ var Choices = React.createClass({
         <p>In a deregulated energy market, you can purchase your electricity or natural gas through a third-party supplier rather than default service through your utility.</p>
       
         <ul className="menu">
-          <li><a href="javascript:'" onClick={this.makeBasics}>Basics</a></li>
-          <li><a href="javascript:'" onClick={this.makeProcess}>Process</a></li>
-          <li><a href="javascript:'"onClick={this.makeProduct}>Product Options</a></li>
+          <li><a href="javascript:'" id="focusbasics" className="link-active" onClick={this.makeBasics}>Basics</a></li>
+          <li><a href="javascript:'" id="focusprocess" className="link-active"onClick={this.makeProcess}>Process</a></li>
+          <li><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
         </ul>
         <div>
-          <p id="details"></p>
+          <p id="details">
+            
+          </p>
           <p id="link"></p>
         </div>
         
