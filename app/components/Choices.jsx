@@ -46,7 +46,24 @@ var Choices = React.createClass({
           <p id="link"></p>
         </div>
         
+        <div className="tabs">
+          <ul className="tabs" data-active-collapse="true" data-tabs id="collapsing-tabs">
+            <li className="tabs-title-is-active"><a href="#panel1c" aria-selected="true">Basics</a></li>
+            <li className="tabs-title"><a data-tabs-target="#panel2c" href="#panel2">The Process</a></li>
+          </ul>
         
+          <div className="tabs-content" data-tabs-content="collapsing-tabs">
+            <div className="tabe-panel is-active" id="panel1c">
+              <p>Basics live in here</p>
+            </div>
+            <div className="tabs-panel" id="panel2c">
+              <p>The Process lives in here</p>
+            </div>
+            
+            
+          </div>
+        
+        </div>
       </div>
     );
   }
