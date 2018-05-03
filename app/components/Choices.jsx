@@ -7,25 +7,24 @@ var Choices = React.createClass({
   
   componentDidMount: function() {
     this.makeBasics();
-    document.getElementById('focusbasics').focus();
   },
   
   makeBasics: function() {
     document.getElementById('details').innerHTML = fixed;
     document.getElementById('link').innerHTML = '<a href="#/Basics">Learn More</a>';
-    document.getElementById('focusbasics').focus();
+    // document.getElementById('focusbasics').focus();
   },
   
   makeProcess: function() {
     document.getElementById('details').innerHTML = process;
     document.getElementById('link').innerHTML = '<a href="#/Process">Learn More</a>';
-    document.getElementById('focusprocess').focus();
+    // document.getElementById('focusprocess').focus();
   },
   
   makeProduct: function() {
     document.getElementById('details').innerHTML = products;
     document.getElementById('link').innerHTML = '<a href="#/Products">Learn More</a>';
-    document.getElementById('focusproducts').focus();
+    // document.getElementById('focusproducts').focus();
   },
   
   

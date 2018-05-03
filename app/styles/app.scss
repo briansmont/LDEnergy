@@ -19,16 +19,16 @@ body {
 
 .center-nav {
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 .nav-text {
   display: inline-block;
 }
-.full-width {
-  width: 100%;
-}
 
 .navwide {
-  display: table; margin: 0 auto;
+  display: table; 
+  margin: 0 auto;
 }
 
 .tabled {
@@ -40,14 +40,10 @@ body {
   margin: 0 auto;
 }
 
-// .link-active:active {
-//   background-color: light-gray;
-//   color: blue;
-//   font-weight: bold;
-//   border-bottom: 1px inset blue;
-// }
-// .link-active:active {
-//   color: blue;
-//   text-decoration: underline;
-//   font-weight: bolder;
-// }
+.hidden {
+  visibility: hidden;
+}
+.white {
+  background-color: white;
+  z-index: 100;
+}
