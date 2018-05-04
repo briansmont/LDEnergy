@@ -12,7 +12,7 @@ var Products = React.createClass({
           <div className="row">
             <div className="columns small-6 large-6">
               <p>Fixed pricing is a conservative approach to purchasing electricity or natural gas.  With this product, you are promised the commodity at a certain price for an agreed upon length of time. The price is guaranteed regardless of market volatility, with no monthly fluctuations.  <br/><small>Occasionally regulators such as the Board of Public Utilities will approve an adjustment, but this<b> impacts all customers, regardless of who provides the commodity</b>.</small></p>
-              <h6>Image will live here</h6>
+              <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-fp.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
               <ul><b>Pros:</b>
@@ -32,7 +32,7 @@ var Products = React.createClass({
           <div className="row">
             <div className="columns small-6 large-6">
               <p>Index pricing is an aggressive approach when purchasing electric or gas. An index product means you are billed for the actual cost of the commodity, with no "risk premium" for a hedge. This can bring you a lower priced product if the index remains low, or can end up costing a fortune more than a fixed price if the index moves upward. There is no stability or hedge against market movement.</p>
-              <h6>Image will live here</h6>
+              <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-ip.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
               <ul><b>Pros:</b>
@@ -54,7 +54,7 @@ var Products = React.createClass({
           <div className="row">
             <div className="columns small-6 large-6">
               <p>Combination strategies use fixed and indexed products to achieve a target risk level. Layer partial fixed hedges over time to achieve diversified portfolio and risk goals by season, time-of-day, etc. Modify strategy in response to markets, risk tolerances, etc.</p>
-              <h6>Image will live here</h6>
+              <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-ca.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
               <ul><b>Pros:</b>
