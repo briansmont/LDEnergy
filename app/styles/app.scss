@@ -55,8 +55,9 @@ body {
 .fixtopright {
   color: green;
   position: fixed;
-  top: 10;
-  right: 0;
+  top: 1.5%;
+  left: 80%;
+  text-align: center;
 }
 .heading {
   width: 100%;
@@ -64,6 +65,7 @@ body {
   z-index: 10;
   background: inherit;
   margin-bottom: 0;
+  max-height: 1px;
 }
 
 .bottom-wrapper {
