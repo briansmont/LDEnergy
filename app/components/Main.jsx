@@ -13,7 +13,9 @@ var Main = React.createClass({
   render: function() {
     return (
       <div>
+        
         <Nav/>
+        
         <br></br>
         
         {this.props.children}

@@ -47,3 +47,29 @@ body {
   background-color: white;
   z-index: 100;
 }
+.fixtopleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.fixtopright {
+  color: green;
+  position: fixed;
+  top: 10;
+  right: 0;
+}
+.heading {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: inherit;
+  margin-bottom: 0;
+}
+
+.bottom-wrapper {
+  width: 100%;
+  padding-top: 53px;
+  z-index: 5;
+  overflow:auto;
+}
+
