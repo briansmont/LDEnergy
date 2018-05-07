@@ -12,7 +12,7 @@ var Choices = React.createClass({
   makeBasics: function() {
     document.getElementById('details').innerHTML = fixed;
     document.getElementById('link').innerHTML = '<a href="#/Basics">Learn More</a>';
-    // document.getElementById('focusbasics').focus();
+    document.getElementById('focusbasics').focus();
   },
   
   makeProcess: function() {
@@ -33,12 +33,13 @@ var Choices = React.createClass({
       <div className="childwidth">
         <h1 className="text-center page-title">Your Choices</h1>
         <p>In a deregulated energy market, you can purchase your electricity or natural gas through a third-party supplier rather than default service through your utility.</p>
-      
-        <ul className="menu">
-          <li><a href="javascript:'" id="focusbasics" className="link-active" onClick={this.makeBasics}>Basics</a></li>
-          <li><a href="javascript:'" id="focusprocess" className="link-active"onClick={this.makeProcess}>Process</a></li>
-          <li><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
-        </ul>
+        <div className="center-tabs">
+          <ul className="tabs menu" data-tabs id="example-tabs">
+            <li className="tabs-title is-active"><a href="javascript:'" id="focusbasics" className="link-active" onClick={this.makeBasics}>Basics</a></li>
+            <li className="tabs-title"><a href="javascript:'" id="focusprocess" className="link-active"onClick={this.makeProcess}>Process</a></li>
+            <li className="tabs-title"><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
+          </ul>
+        </div>
         <div>
           <p id="details">
             

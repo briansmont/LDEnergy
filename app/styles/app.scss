@@ -76,3 +76,19 @@ body {
   overflow:auto;
 }
 
+ul.tabs {
+  text-align: center;
+  
+  font-weight: bolder;
+}
+
+ul.tabs li {
+  float: none !important;
+  display: inline-block;
+}
+
+.center-tabs {
+  width: 30%;
+  margin: 0 auto;
+  
+}
