@@ -40,7 +40,7 @@ var Choices = React.createClass({
             <li className="tabs-title"><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
           </ul>
         </div>
-        <div>
+        <div className="text-info">
           <p id="details">
             
           </p>
