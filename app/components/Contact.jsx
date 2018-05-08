@@ -10,7 +10,9 @@ var Contact = React.createClass({
           <h3>How can we help?</h3>
           <form action="https://getsimpleform.com/messages?form_api_token=6bb9c297882fcb5211b5d5a9d5e976ef" method="post">
             <input type='hidden' name='redirect_to' value='http://ldbeta.herokuapp.com/#/Thanks'/>
-            <input autoFocus type="text" fullname="fullName" placeholder="Enter Full Name"/>
+            <input autoFocus type="text" name="fullName" placeholder="Enter Full Name"/>
+            <input type="text" name="company" placeholder="Company Name" />
+            <input type="text" name="position" placeholder="Position" />
             <input type="text" name="email" placeholder="Email Address" />
             <input type="number" name="phoneNumber" placeholder="Phone Number" />
             <textarea name="message" placeholder="Let us know how we can help"></textarea>
