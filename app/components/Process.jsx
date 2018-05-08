@@ -32,7 +32,7 @@ var Process = React.createClass({
         </ol>
         
         
-        <div class="next-previous-buttons">
+        <div class="center-div">
           <a href="#/Basics" className="next">&laquo; Basics</a>
           <a href="#/Products" className="next">Products &raquo;</a>
         </div>        
