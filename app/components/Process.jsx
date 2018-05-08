@@ -6,6 +6,7 @@ var Process = React.createClass({
     
     return (
       <div className="childwidth">
+        <a href="#/Choices" className="next">&laquo; Back to Choices</a>      
         <h3>The Process</h3>
         <ol>
           <li>
@@ -29,6 +30,13 @@ var Process = React.createClass({
             Over time, the energy markets and clients' goals always evolve.  We work hard to ensure our clients are constantly aware of market changes and market opportunities.
           </li>
         </ol>
+        
+        
+        <div class="next-previous-buttons">
+          <a href="#/Basics" className="next">&laquo; Basics</a>
+          <a href="#/Products" className="next">Products &raquo;</a>
+        </div>        
+        
       </div>
     );
     

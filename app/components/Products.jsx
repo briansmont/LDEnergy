@@ -4,6 +4,7 @@ var Products = React.createClass({
   render: function() {
     return (
       <div className="childwidth">
+        <a href="#/Choices" className="next">&laquo; Back to Choices</a>        
         <h3>Product Options</h3>
         <div className="fixed">
           <div>
@@ -69,8 +70,12 @@ var Products = React.createClass({
               </ul>
             </div>
           </div>
-        
         </div>
+        
+        <div class="center-div">
+          <a href="#/Process" className="next">&laquo; Process</a>
+        </div>
+        
       </div>
     );
   }
