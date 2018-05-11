@@ -4,9 +4,20 @@ var Basics = React.createClass({
   render: function() {
     return (
       <div className="childwidth">
-        <a href="#/Choices" className="next">&laquo; Back to Choices</a>
+        <div className="row">
+          <div className="columns large-6">
+            <a href="#/Choices" className="next">&laquo; Back to Choices</a>        
+          </div>
+
+          <div className="columns large-4">
+            <a href="#javascript:'"><b><i>Basics</i></b></a>
+            <a href="#/Process" className="next">&raquo; Process</a>
+            <a href="#/Products" className="next">&raquo;&raquo; Products</a>
+          </div>          
+        </div>
+        
       
-        <h3>The Basics</h3>
+        <h3 className="sub-title">The Basics</h3>
         <br/>
         <p>The deregulation of electricity and natural gas means you can choose the source of your energy supply.  For electricity and natural gas, there are two core components to the cost:</p>
         <ol>
@@ -15,10 +26,6 @@ var Basics = React.createClass({
         </ol>
         <p>By procuring from a third-party, you allow yourself the ability to negotiate rates, and you provide yourself flexibility into how you purchase your commodities.  Default rates through the local utility may be market-based or a blended average or periodical purchases; each state and local utility handles this differently.  Regardless of the utility, when you allow them to procure on your behalf, you have no flexibility to take advantage of the open market to benefit your business needs.</p>
 
-        
-        <div class="next-previous-buttons">
-          <a href="#/Process" className="next">Process &raquo;</a>
-        </div>
         
       </div>
     );
