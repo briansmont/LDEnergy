@@ -1,7 +1,7 @@
 var React = require('react');
 var Nav = require('Nav');
 var marketData = require('marketData');
-
+var Footer = require('Footer');
 var Main = React.createClass({
   
   componentDidMount: function() {
@@ -20,6 +20,8 @@ var Main = React.createClass({
         
         {this.props.children}
 
+
+        <Footer />
       </div>
     );
   }
