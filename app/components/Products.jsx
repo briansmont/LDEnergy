@@ -4,6 +4,7 @@ var Products = React.createClass({
   render: function() {
     return (
       <div className="childwidth">
+
         <div className="row">
           <div className="columns large-6">
             <a href="#/Choices" className="next">&laquo; Back to Choices</a>        
@@ -25,11 +26,11 @@ var Products = React.createClass({
               <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-fp.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
-              <ul><b>Pros:</b>
+              <ul id="pros"><b>Pros:</b>
                 <li>Hedge against rising market conditions</li>
                 <li>Ability to budget and predict costs</li>
               </ul>
-              <ul><b>Cons:</b>
+              <ul id="cons"><b>Cons:</b>
                 <li>Market could trend further downward below contract price over time</li>
               </ul>
             </div>
@@ -45,12 +46,12 @@ var Products = React.createClass({
               <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-ip.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
-              <ul><b>Pros:</b>
+              <ul id="pros"><b>Pros:</b>
                 <li>No risk premium cost</li>
                 <li>Purchase at true cost to supply for power/gas</li>
                 <li>Aggressive buying strategy</li>
               </ul>
-              <ul><b>Cons:</b>
+              <ul id="cons"><b>Cons:</b>
                 <li>No protection against upward market movement</li>
                 <li>Potential for extreme volatility, straining budget planning</li>
               </ul>
@@ -67,13 +68,13 @@ var Products = React.createClass({
               <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/graph-ca.jpg"></img>
             </div>
             <div className="columns small-6 large-6">
-              <ul><b>Pros:</b>
+              <ul id="pros"><b>Pros:</b>
                 <li>Combine fixed / index pricing to see best of both</li>
                 <li>Layer fixed hedges over time to diversity</li>
                 <li>Allow for changing risk tolerances over time</li>
                 <li>Ability to react and adjust with market movement</li>
               </ul>
-              <ul><b>Cons:</b>
+              <ul id="cons"><b>Cons:</b>
                 <li>Requires minimum annual energy usage of 7,500 mWh - 10,000 mWh</li>
                 <li>Potential for additional risk due to index components</li>
               </ul>

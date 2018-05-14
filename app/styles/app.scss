@@ -120,3 +120,31 @@ ul.tabs li {
 .margin-bottom {
   margin-bottom: 50px;
 }
+
+#link {
+  text-decoration: underline;
+}
+
+// STYLE PLUS & MINUS BELOW
+
+#pros {
+  list-style-type: none;
+}
+
+#pros li:before {
+  content: "+";
+  margin-right: 4px;
+  font-weight: bold;
+  color: green;
+}
+
+#cons {
+  list-style-type: none;
+}
+
+#cons li:before {
+  content: "-";
+  margin-right: 4px;
+  font-weight: bold;
+  color: red;
+}
