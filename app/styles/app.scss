@@ -129,6 +129,13 @@ ul.tabs li {
   text-decoration: underline;
 }
 
+#email-quote {
+  position: relative;
+  bottom: 25px;
+  left: 575px;
+}
+
+
 // STYLE PLUS & MINUS BELOW
 
 #pros {
@@ -177,4 +184,12 @@ ul.tabs li {
   position: relative;
   bottom: 200px;
 
+}
+
+.float-right {
+  float: right;
+}
+
+.padding-top {
+  padding-top: 20px;
 }
