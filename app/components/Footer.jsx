@@ -76,7 +76,7 @@ var Footer = React.createClass({
                   <p><a href="https://www.eia.gov/" target="_blank">U.S. Energy Info Administration</a></p>
                 </div>
                 <div className="medium-4 columns">
-                  <p><a href="mailto:info@ldenergyconsulting.com">info@ldenergyconsulting.com</a></p>
+                  <p><address><a href="mailto:info@ldenergyconsulting.com">info@ldenergyconsulting.com</a></address></p>
                 </div>
               </div>
             </div>
