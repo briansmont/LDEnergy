@@ -4,7 +4,7 @@ var Footer = React.createClass({
   render: function() {
     return (
       <div id="footer">
-        <div className="top-bar">
+        <div id="quicklinks" className="top-bar">
           
           <div className="row">
             <div className="medium-9 columns">
