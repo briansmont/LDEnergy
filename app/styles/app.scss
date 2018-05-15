@@ -93,6 +93,10 @@ ul.tabs li {
   
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .text-info {
   padding-top: 50px;
 }
@@ -152,18 +156,25 @@ ul.tabs li {
 #footer {
   margin-top: 100px;
   border-top: solid black 1px;
+  font-size: 80%;
 }
 
 #disclaimer {
   text-align: center;
+  position: relative;
+  bottom: 175px;
 }
 
 #quicklinks p {
-  padding-top: 3px;
   padding-bottom: 3px;
 }
 
 #emailbutton {
-  font-style: normal;
-  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+#license {
+  position: relative;
+  bottom: 200px;
+
 }
