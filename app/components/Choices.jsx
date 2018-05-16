@@ -4,8 +4,9 @@ var process =  '<ul><u>The Process</u><li>Consultation with the client to determ
 var products = '<ul><u>Product Options</u><li>What are the goals for energy spend?</li><li>How much risk is the client comfortable with?</li><li>Take into account the time of year and the terms of various opportunities</li></ul>';
 
 var Choices = React.createClass({
-  
+    
   componentDidMount: function() {
+    window.scrollTo(0,0);
     this.makeBasics();
   },
   

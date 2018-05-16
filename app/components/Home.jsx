@@ -2,7 +2,13 @@ var React = require('react');
 var Link = require('react-router');
 
 var Home = React.createClass({
+    
+  componentDidMount: function() {
+    window.scrollTo(0,0);
+  },
+  
   render: function() {
+    
     return (
       <div className="childwidth">
         <h1 className="text-center page-title">LD Energy Consulting</h1>

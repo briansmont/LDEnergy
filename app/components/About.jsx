@@ -1,6 +1,10 @@
 var React = require('react');
 
 var About = React.createClass({
+  componentDidMount: function() {
+    window.scrollTo(0,0);
+  },
+  
   render: function() {
     return (
       <div className="childwidth">

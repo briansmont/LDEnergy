@@ -1,6 +1,11 @@
 var React = require('react');
 
 var Products = React.createClass({
+
+  componentDidMount: function() {
+    window.scrollTo(0,0);
+  },
+  
   render: function() {
     return (
       <div className="childwidth">
