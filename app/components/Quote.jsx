@@ -5,7 +5,7 @@ var Quote = React.createClass({
     return (
       <div className="childwidth">
         <h1 className="text-center page-title">Request a Quote</h1>
-        <p>We look forward to working with you.  In order to provide quotes, we need the authorization form below to be completed and signed.</p>
+        <p>We look forward to working with you!</p>
           <ul><b>In order to provide quotes, we  need the following:</b>
             <li>Please complete the letter of authorization below</li>
             <li>Submit a recent utility invoice for each electricity and natural gas invoice you would like us to evaluate</li>
@@ -27,7 +27,7 @@ var Quote = React.createClass({
             </div>
           </div>
         </div><br/>
-        <h6>We'll reach out to you soon to schedule a more in depth conversation. Thanks for reaching out</h6>
+        <h6>We'll reach out to you soon to schedule a more in depth conversation. Thanks for reaching out!</h6>
       </div>
     );
   }
