@@ -104,7 +104,7 @@ var Footer = React.createClass({
               <small>LD Energy is an independent consultant. Any context, opinion, prices, or general information is for informational purposes only, and may contain inaccuracies. LD Energy gives no assurance or warranty regarding the accuracy, timeliness, or applicability of any of the contents expressed. LD Energy hereby excludes liability for any claims, losses, demands, or damages of any kind whatsoever with regard to any information, content, or services provided at our web site, including but not limited to direct, indirect, incidental, or consequential loss or damages, compensatory damages, loss of profits, or data, or otherwise.</small>
             </div>
             <div className="row">
-              <p>&copy; Copyright 2018, LD Energy, All Rights Reserved</p>
+              <p id="sink">&copy; Copyright 2018, LD Energy, All Rights Reserved</p>
             </div>
           </div>
               

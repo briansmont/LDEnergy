@@ -33,28 +33,29 @@ var Choices = React.createClass({
     return (
       <div className="childwidth">
         <h1 className="text-center page-title">Choose Your Own Supplier</h1>
-        <div className="row">
-          <div className="columns medium-6">
-          <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/localvscompetitive.jpg"></img>
+        <div className="childwidth">
+          <div className="row">
+            <div className="columns medium-6">
+            <img src="https://s3.us-east-2.amazonaws.com/ldwebsite/localvscompetitive.jpg"></img>
+            </div>
+            <div className="columns medium-6">
+            <p>In a deregulated energy market, you can purchase your electricity or natural gas through a third-party supplier rather than default service through your utility.</p>
+            </div>
           </div>
-          <div className="columns medium-6">
-          <p>In a deregulated energy market, you can purchase your electricity or natural gas through a third-party supplier rather than default service through your utility.</p>
+          <div className="center-tabs padding-top">
+            <ul className="tabs menu" data-tabs id="example-tabs">
+              <li className="tabs-title is-active"><a href="javascript:'" id="focusbasics" className="link-active" onClick={this.makeBasics}>Basics</a></li>
+              <li className="tabs-title"><a href="javascript:'" id="focusprocess" className="link-active"onClick={this.makeProcess}>Process</a></li>
+              <li className="tabs-title"><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
+            </ul>
+          </div>
+          <div className="text-info childwidth">
+            <p id="details">
+              
+            </p>
+            <p id="link"></p>
           </div>
         </div>
-        <div className="center-tabs padding-top">
-          <ul className="tabs menu" data-tabs id="example-tabs">
-            <li className="tabs-title is-active"><a href="javascript:'" id="focusbasics" className="link-active" onClick={this.makeBasics}>Basics</a></li>
-            <li className="tabs-title"><a href="javascript:'" id="focusprocess" className="link-active"onClick={this.makeProcess}>Process</a></li>
-            <li className="tabs-title"><a href="javascript:'" id="focusproducts" className="link-active" onClick={this.makeProduct}>Product Options</a></li>
-          </ul>
-        </div>
-        <div className="text-info childwidth">
-          <p id="details">
-            
-          </p>
-          <p id="link"></p>
-        </div>
-        
       </div>
     );
   }

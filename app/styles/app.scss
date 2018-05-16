@@ -11,6 +11,9 @@
 .page-title {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+  color: #2e8230;
+  text-shadow: 1px 1px 1px black;
+  
 }
 
 body {
@@ -53,7 +56,7 @@ body {
   left: 0;
 }
 .fixtopright {
-  color: green;
+  color: #2e8230;
   position: fixed;
   top: 1.5%;
   left: 80%;
@@ -189,6 +192,14 @@ ul.tabs li {
 .float-right {
   float: right;
 }
+
+#sink {
+  position: relative;
+  top: 100px;
+}
+
+// SEPARATE
+
 
 .padding-top {
   padding-top: 20px;
