@@ -7,7 +7,7 @@ var LiveMarket = React.createClass({
       <div>
         <p>LIVE Market child component will be here</p>
         
-        <div className="center-div">
+        <div className="center">
           <iframe id="eia_widget" style={{ width: '80%', height: '400px'}} src="//www.eia.gov/opendata/embed/iframe.php?geoset_id=ELEC.PRICE.ALL.M&map=us_merc_en&relation_id=ELEC.PRICE.ALL.M|ENDSEC&regions=USA&relation_mode=bar&regions=USA&start=200101&end=201806"></iframe>
         </div>
 
