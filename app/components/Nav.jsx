@@ -15,7 +15,7 @@ var Nav = React.createClass({
               <li className="tabled"><Link to="/About" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link></li>
               <li className="tabled"><Link to="/Choices" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Your Choices</Link></li>
               <li className="tabled"><Link to="/Services" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Services</Link></li>
-              
+              <li className="tabled"><Link to="/Market" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Market Update</Link></li>
               <li className="tabled"><Link to="/Contact" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Contact</Link></li>
               <li className="tabled"><Link to="/Quote" activeClassName="active" activeStyle={{fontWeight: 'bold'}}><i>Get a Quote!</i></Link></li>
             </ul>
