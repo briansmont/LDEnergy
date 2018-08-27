@@ -8,7 +8,7 @@ var LiveMarket = React.createClass({
         <div className="space-bottom" id="natgas-update">
           <h5>Weekly Natural Gas Storage Report <small>for week ending July 13, 2018</small></h5>
           <p><strong>Summary:</strong></p>
-          <p>Working gas in storage was 2,249 Bcf as of Friday, July 13, 2018, according to EIA estimates. This represents a net increase of 46 Bcf from the previous week. Stocks were 710 Bcf less than last year at this time and 535 Bcf below the five-year average of 2,784 Bcf. At 2,249 Bcf, total working gas is within the five-year historical range. </p>
+          <p>Working gas in storage was 2,435 Bcf as of Friday, August 17, 2018, according to EIA estimates. This represents a net increase of 48 Bcf from the previous week. Stocks were 684 Bcf less than last year at this time and 599 Bcf below the five-year average of 3,034 Bcf. At 2,435 Bcf, total working gas is below the five-year historical range. </p>
           <p><small>Information above is reported by the EIA.</small></p>
         </div>
         <h3  className="space-bottom" className="text-center">Charts from the <a href="https://www.eia.gov/" target="_blank">U.S. Energy Info Administration</a></h3>
